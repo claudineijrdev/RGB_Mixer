@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Simulator</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="view">
+      <div class="containers cntrLabels">
+        <label class="control">(R) Vermelho:</label>
+        <label class="control">(G) Verde:</label>
+        <label class="control">(B) Azul:</label>
+      </div>
+      <div class="containers cntrRanges">
+        <input type="range" class="control" id="rangeRed" min="0" max="255" />
+        <input type="range" class="control" id="rangeGreen" min="0" max="255" />
+        <input type="range" class="control" id="rangeBlue" min="0" max="255" />
+        <div class="cntrColorBox" id="colorBox"></div>
+      </div>
+      <div class="containers cntrInputs">
+        <input type="text" class="control" id="valRed" disabled />
+        <input type="text" class="control" id="valGreen" disabled />
+        <input type="text" class="control" id="valBlue" disabled />
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

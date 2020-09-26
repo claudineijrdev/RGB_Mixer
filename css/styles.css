@@ -1,0 +1,29 @@
+.containers {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.cntrLabels {
+  width: auto;
+}
+.cntrRanges {
+  width: 200px;
+}
+.cntrInputs {
+  width: 60px;
+}
+
+.control {
+  margin-bottom: 10px;
+}
+
+.cntrColorBox {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+}
+
+.view {
+  padding: 10px;
+  display: flex;
+}
